@@ -19,10 +19,6 @@ function plusOne(digits) {
             return [1, ...digits];
         }
         return digits;
-        // If an integer is greater than MAX_SAFE_INTEGER
-        // Run a while loop from the end of the array to the start
-        // Check if digit is 9 then carry 1
-        // If digit is !9 then add one
     }
     else {
         let num = Number(digits.toString().replace(/,/g, ''));
