@@ -3,7 +3,7 @@
 function strStr(haystack, needle) {
     let hLen = haystack.length;
     let nLen = needle.length;
-    if (hLen === 0)
+    if (nLen === 0)
         return 0;
     for (let i = 0; i <= hLen; i++) {
         if (haystack.charAt(i) === needle.charAt(0)) {
