@@ -5,7 +5,6 @@ function maxArea(height) {
     let area = 0;
     for (let i = 0; i < len; i++) {
         for (let j = i + 1; j < len; j++) {
-            // Calculating the max area
             area = Math.max(area, Math.min(height[j], height[i]) * (j - i));
         }
     }

@@ -28,6 +28,8 @@ function isNumber(s) {
         if (s.charAt(0) === '+' || s.charAt(0) === '-')
             i++;
         while (i < len) {
+            if (s.charAt(i) === '.')
+                i++;
             if (/\D/.test(s.charAt(i))) {
                 flag = false;
                 return flag;
@@ -38,7 +40,7 @@ function isNumber(s) {
     };
     console.log(isInteger(''));
     console.log(isInteger('932430'));
-    console.log(isInteger('+9234320'));
+    console.log(isInteger('+923.4320'));
     console.log(isInteger('-902343'));
     console.log(isInteger('dsdf'));
     console.log(isInteger('+sajd789'));
