@@ -30,3 +30,19 @@ function letterCombinations(digits) {
     }
     return [];
 }
+function toLowerCase(s) {
+    let len = s.length;
+    let charCode = 0;
+    let result = '';
+    for (let i = 0; i < len; i++) {
+        charCode = s.charCodeAt(i);
+        if (charCode >= 65 && charCode <= 90) {
+            result += String.fromCharCode(charCode + 32);
+        }
+        else {
+            result += s[i];
+        }
+    }
+    return result;
+}
+console.log(toLowerCase('LOVELY'));
