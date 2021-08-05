@@ -3,6 +3,7 @@
 function truncateSentence(s, k) {
     let m = 0;
     let result = '';
+    s = s + ' ';
     for (let i = 0; i < s.length; i++) {
         if (s[i] === ' ') {
             m++;
