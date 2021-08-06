@@ -2,7 +2,7 @@
 // 1704. Determine if String Halves Are Alike
 function halvesAreAlike(s) {
     const isVowel = (c) => {
-        if (c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'a') {
+        if (c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'u') {
             console.log('char', c);
             return true;
         }
