@@ -1,5 +1,6 @@
 "use strict";
 // 1436. Destination City
+// Solve with HashMap / Hash Table
 function destCity(paths) {
     let leftArray = [];
     let rightArray = [];
