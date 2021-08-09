@@ -1,17 +1,33 @@
 "use strict";
 // 36. Valid Sudoku
-function removeDuplicates(nums) {
+function isValidSudoku(board) {
     const map = new Map();
-    let counter = 0;
-    const len = nums.length;
-    for (let i = 0; i < len; i++) {
-        if (!map.has(nums[i])) {
-            map.set(nums[i], i);
-            nums[counter] = nums[i];
-            counter++;
+    for (let i = 0; i < 9; i++) {
+        for (let j = 0; j < 9; j++) {
+            if (board[i][j] !== '.') {
+                if (map.has(`${board[i][j]} present in row ${i}`) ||
+                    map.has(`${board[i][j]} present in column ${j}`) ||
+                    map.has(`${board[i][j]} present in box ${Math.floor(i / 3)}-${Math.floor(j / 3)}`)) {
+                    return false;
+                }
+                else {
+                    map.set(`${board[i][j]} present in row ${i}`, true);
+                    map.set(`${board[i][j]} present in column ${j}`, true);
+                    map.set(`${board[i][j]} present in box ${Math.floor(i / 3)}-${Math.floor(j / 3)}`, true);
+                }
+            }
         }
     }
-    console.log(nums);
-    return map.size;
+    return true;
 }
-console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
+console.log(isValidSudoku([
+    ['.', '.', '.', '.', '5', '.', '.', '1', '.'],
+    ['.', '4', '.', '3', '.', '.', '.', '.', '.'],
+    ['.', '.', '.', '.', '.', '3', '.', '.', '1'],
+    ['8', '.', '.', '.', '.', '.', '.', '2', '.'],
+    ['.', '.', '2', '.', '7', '.', '.', '.', '.'],
+    ['.', '1', '5', '.', '.', '.', '.', '.', '.'],
+    ['.', '.', '.', '.', '.', '2', '.', '.', '.'],
+    ['.', '2', '.', '9', '.', '.', '.', '.', '.'],
+    ['.', '.', '4', '.', '.', '.', '.', '.', '.'],
+]));
