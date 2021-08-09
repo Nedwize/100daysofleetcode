@@ -39,7 +39,7 @@ function toGoatLatin(sentence) {
             flag = i + 1;
         }
     }
-    return result;
+    return result.trim();
 }
 console.log(toGoatLatin('I speak Goat Latin'));
 console.log(toGoatLatin('The quick brown fox jumped over the lazy dog'));
