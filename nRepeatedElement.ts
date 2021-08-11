@@ -1,7 +1,7 @@
 // 961. N-Repeated Element in Size 2N Array
 
 function repeatedNTimes(nums: number[]): number {
-  const map: any = {};
+  const map: Record<number, boolean> = {};
 
   const n = nums.length / 2;
   // Let length be 10
