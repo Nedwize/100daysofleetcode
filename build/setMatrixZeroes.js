@@ -1,5 +1,6 @@
 "use strict";
-// Set Matrix Zeroes - Daily Challenge
+//72. Set Matrix Zeroes - Daily Challenge
+// Revisit
 /**
  Do not return anything, modify matrix in-place instead.
  */
@@ -21,7 +22,6 @@ function setZeroes(matrix) {
             }
         }
     }
-    console.log(matrix);
 }
 console.log(setZeroes([
     [1, 1, 1],

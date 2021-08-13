@@ -27,3 +27,8 @@ How to handle collisions?
 
 - Separate Chaining - Chaining
 - Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
+
+// 14/08
+
+- Binary Search in a 2D Array
+- Solve 1351
