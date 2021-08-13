@@ -1,22 +1,31 @@
 "use strict";
 // 1742. Maximum Number of Balls in a Box
 function countBalls(lowLimit, highLimit) {
-    const arr = new Array(43).fill(0);
+    const map = new Map();
     let max = 0;
     let n = 0;
     for (let i = lowLimit; i <= highLimit; i++) {
-        ++arr[getSum(i)];
+        n = getSum(i);
+        if (map.has(n)) {
+            map.set(n, map.get(n) + 1);
+            if (max < map.get(n)) {
+                max = map.get(n);
+            }
+        }
+        else {
+            map.set(n, 1);
+        }
     }
     function getSum(n) {
-        let ret = 0;
-        while (n > 0) {
-            ret += n % 10;
+        var sum = 0;
+        while (n != 0) {
+            sum = sum + (n % 10);
             n = Math.floor(n / 10);
         }
-        return ret;
+        return sum;
     }
-    return Math.max(...arr);
+    return Math.max(...map.values());
 }
 // console.log(countBalls(1, 10));
 console.log(countBalls(5, 15));
-console.log(countBalls(19, 28));
+// console.log(countBalls(19, 28));
