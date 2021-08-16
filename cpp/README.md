@@ -19,6 +19,11 @@
 
 - Vectors
 
+  - Methods available on Vectors (push_back, size etc)
+  - They are dynamic arrays, once the storage is full, it creates a new array of double the size and copies all the current values to the new array
+  - Contiguous memory location
+  - Elements can be accessed and added in constant / O(1) time
+
 - Basic Problems to Solve -
   - Largest Sum
   - Max Subarray Sum
