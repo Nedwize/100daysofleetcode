@@ -12,6 +12,15 @@
   - Two Pointer Approach
 
 - Subarray Computation
+
   - Subarray Sum I - Brute Force - O(n^3)
   - Subarray Sum II - Prefix Sum - O(n^2)
   - Subarray Sum I - Kadane's Algorithm - O(n)
+
+- Vectors
+
+- Basic Problems to Solve -
+  - Largest Sum
+  - Max Subarray Sum
+  - Lower Bound
+  - K Rotate
