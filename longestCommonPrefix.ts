@@ -1,4 +1,5 @@
 // 14. Longest Common Prefix
+// Revisit
 
 function longestCommonPrefix(strs: string[]): string {
   let commonPrefix = strs[0];
