@@ -7,6 +7,9 @@
   - Linear Search - O(n)
   - Binary Search - O(log n)
 
+  - Pairs Problem
+  - Peak Finding
+
 - Reversing Arrays
 
   - Two Pointer Approach
