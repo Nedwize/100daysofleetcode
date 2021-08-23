@@ -23,7 +23,7 @@ int printArray(vector<int> arr) {
 }
 
 int main() {
-    vector<int> arr = {1, 3, 2, 5, 4};
+    vector<int> arr = { 11, 2, 9, 13, 57, 25, 17, 1, 90, 3 };
     printArray(arr);
     
     vector<int> a = bubbleSort(arr);
