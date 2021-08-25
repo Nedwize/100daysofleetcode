@@ -1,4 +1,4 @@
-// Finding Peak Element in a sorted array
+// Finding Peak Element in a sorted mountain array
 
 #include <iostream>
 #include <vector>
