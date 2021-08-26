@@ -64,5 +64,5 @@ int main() {
   - K Rotate
 
 - 26/08/2021 Problems
-  - #744 Find Smallest Letter Greater Than Target
+  - ✅ #744 Find Smallest Letter Greater Than Target
   - #1539 Kth Missing Positive Number
