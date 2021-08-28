@@ -5,7 +5,7 @@
 - [x] [First Bad Version](https://leetcode.com/problems/first-bad-version/)
 - [x] [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [x] [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
-- [ ] [Arranging Coins(Easy)](https://leetcode.com/problems/arranging-coins/)
+- [x] [Arranging Coins(Easy)](https://leetcode.com/problems/arranging-coins/)
 - [x] [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 - [x] [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
 - [x] [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
