@@ -1,3 +1,5 @@
+// author: Nedwize
+
 // Counting Sort
 // Used when there is a range given of the elements of an array
 // Linear Time Complexity - O(n + Range)
@@ -36,6 +38,12 @@ vector<int> countingSort(vector<int> arr) {
     
     
     return arr;
+}
+
+int heightChecker(vector<int>& heights) {
+    vector<int> resolved = countingSort(heights);
+
+    for()
 }
 
 int printArray(vector<int> arr) {
