@@ -1,34 +1,12 @@
-What makes a good hash function?
+# Problems for Daily DSA Challenge
 
-- Fast (We have to calculate the hash value whenever we retrieve or add data so it needs to be in constant time)
+## Arrays
 
-- Deterministic - Same input gives the same output
+### Week 1
 
-- Distributed - Cluttered output is not preferred
-
-Problems -
-
-- Keys can be nonneg integers
-- Gigantic Memory Hog
-
-Solution 1 - Keys can be nonneg int
-
-- Prehashing - Prehash a particular key such that it results in a nonneg integer
-
-Solution 2 - Gigantic Memory Hog
-
-- Create a hash function which transforms a key produced in a step 1 into an index of a sizeable array
-
-(This is a problem because of the pigeon hole principle, the number of slots for your pigeons is way less than the total number of pigeons)
-
-- Also, it can result in possible collisions such that h(i) = h(j) but i != j
-
-How to handle collisions?
-
-- Separate Chaining - Chaining
-- Open Addressing - Linear Probing, Quadratic Probing, Double Hashing
-
-// 14/08
-
-- Binary Search in a 2D Array
-- Solve 1351
+- [Even Fibonacci Numbers](https://projecteuler.net/problem=2)
+- [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
+- [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)
+- [Average Salary Excluding Minimum and Maximum](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
+- [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
+- [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)
