@@ -10,3 +10,4 @@
 - [Average Salary Excluding Minimum and Maximum](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
 - [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
 - [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)
+- [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
