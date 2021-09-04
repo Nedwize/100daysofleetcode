@@ -6,16 +6,17 @@
 
 using namespace std;
 
-void moveZeroes(vector<int>& nums) {
+void removeElement(vector<int>& nums, int val) {
 
     int j = 0;
-    int removeElement(vector<int>& nums, int val) {
+    for (int i = 0; i < nums.size(); i++) {
         
         if(nums[i] != val) {
             nums[j] = nums[i];
             j++;
         }
-    }  
+    }
+    return j;
 }
 
 int main() {
