@@ -1,8 +1,10 @@
 # LeetCode Sessions
 
-Day 1 - 10/09/2021 10PM - 11PM
+> Question Bank of DSA Sessions
 
 ## Day 1
+
+> 10/09/2021 10PM - 11PM
 
 ### Arrays
 
