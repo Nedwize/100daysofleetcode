@@ -7,6 +7,7 @@
 3. [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array)
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)
 5. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)
+6. [Count Numbers with even digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 
 ### Easy
 
