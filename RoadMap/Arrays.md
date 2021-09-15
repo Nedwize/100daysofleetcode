@@ -20,7 +20,7 @@
 1. [Three Sum](https://leetcode.com/problems/3sum)
    - Arrays with two Pointer
    - Expansion of Two Sum Try with Similar Approach
-2. [Three Sum Closest]
+2. [Three Sum Closest](https://leetcode.com/problems/3sum-closest)
    - Similar too three Sum
    - Think of taking Minimum diffrence
 3. [Four Sum](https://leetcode.com/problems/4sum)
