@@ -1,5 +1,9 @@
 # Arrays
 
+### Very Easy
+
+1. [Build Array From Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+
 ### Easy
 
 1. [Two Sum](https://leetcode.com/problems/two-sum)
