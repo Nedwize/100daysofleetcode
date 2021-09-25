@@ -11,7 +11,7 @@ using namespace std;
 
 // Target = 10
 // {1, 3, 5, 10, 14, 16, 20, 35, 56, 78, 99}; = n
-//  ^                                     ^
+//        ^       ^
 // start = 3                             end = 10
 // 
 // O(n) - Linear Time Complexity
@@ -23,7 +23,7 @@ int linearSearch(vector<int>& nums, int target) {
     // Traverse the array from beginning to end
     for (int i = 0; i < nums.size(); i++) {
         if(nums[i] == target) return i; // If target is found then return its position
-    }
+    } // 1ms
     return -1;
 }
 
@@ -35,7 +35,7 @@ int binarySearch(vector<int>& nums, int target) {
 
     // Base case start <= end
     while(start <= end) {
-        mid = start + (end - start) / 2;
+        mid = start + (end - start) / 2; // end + start / 2
         cout << "Start: " << start << " Mid: " << mid << " End: " << end << endl;
         if(nums[mid] == target) return mid;
         if(nums[mid] < target) start = mid + 1;
